@@ -1,0 +1,18 @@
+.Top{
+    padding-inline: 4vw;
+    width: 100%;
+    display: flex;
+    gap: 6vw;
+    height: calc(38vw - 19vh);
+}
+@include devices(Taplet){
+    .BG{min-width: 100vw !important; height: 80vw !important; }
+    .Tools{display: none;}
+    .Navbar{justify-content: center;.Link{font-size: 3vw;} }
+    .Top{flex-direction: column;align-items: center; height: 65vw;}
+    .LeftSec_Top{h1,h2{font-size: 7vw !important; text-align: center;}h3{font-size: 5vw !important; text-align: center;}}
+    .LeftSec_Mid,.LeftSec_Down{display: none;}
+    .SocialMedia{flex-direction: row;    padding: 16vh 11vw; justify-content: space-between;  width: 100vw;
+    .SocialMediaB{flex-direction: column-reverse;}  .Icon{font-size: 2.5vw;} .Ibra{height: 5vw;} }
+    .Home_RightSec{ height: 45vw !important; }
+}

@@ -1,0 +1,40 @@
+.Down{
+    position: absolute;
+    top: calc(43vw );
+}
+.Down_BG{
+    position: absolute;
+    width: 100vw;
+    height: 18vh;
+    bottom: 0;
+}
+.Down_Item{
+    height: 10vw;
+    object-fit: contain;
+    cursor: pointer;
+    z-index: 999;
+    transition: ease-in-out;
+
+}
+.Down_Items{
+    padding-inline: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+}
+.LapHover{
+    height: 27vh;
+    transform: translateY(-3vw);
+    transition: ease-in-out;
+    animation:LapHovers 2s ;
+
+
+}
+@include devices(Taplet){
+    .Down{
+        top: 92vh !important;
+            
+    }
+  
+}

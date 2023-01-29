@@ -1,0 +1,29 @@
+
+.SocialMedia{
+  z-index: 999;
+
+    @include FlexC;
+    padding: 16vh 5vw; gap: 4vh;
+  .SocialMediaA,.SocialMediaB{
+    @include FlexC;
+    justify-content: center; gap: 2vh;
+  }
+    svg{
+         fill:var(--white) !important ;
+    }
+    .Icon{
+        display: block;
+        font-size: 1.5vw;
+        cursor: pointer;
+      
+  
+    }
+    .Ibra{
+        background-color: white;
+        height: 3vw;
+        width: 3px;
+    }
+  }
+  .Home_Section{
+    z-index: 999;
+  }
